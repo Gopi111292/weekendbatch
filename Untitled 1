@@ -1,0 +1,23 @@
+## TC1
+
+1. Login - @BeforeMethod
+2. Search - @Test
+3. Logout - @AfterMethod
+4. Login
+5. Advanced search -- @Test
+6. Logout
+
+## Hard assertions
+
+access though 'Assert' class
+all methods are static
+if hard assertion got failed then rest of the statement will not be executed.
+
+## Soft assertions
+
+access through 'SoftAssert' object
+
+SoftAssert sa=new SoftAssert();
+sa.assertTrue()
+
+if soft assertion got failed then rest of the statemetns still execute.
